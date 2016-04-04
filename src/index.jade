@@ -1,0 +1,9 @@
+doctype html
+html(lang='en', ng-app='mapit')
+    head
+        meta(name='viewport', content='initial-scale=1.0, user-scalable=no')
+        meta(charset='utf-8')
+        title mapper
+    body ng-controller="SiteController as site"
+        h1 {{site.item.name}}
+

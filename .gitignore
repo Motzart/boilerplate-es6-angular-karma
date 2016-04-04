@@ -1,0 +1,14 @@
+### Sass template
+html/.sass-cache/
+*.css.map
+### Project template
+.idea/
+html/node_modules/
+html/bower_components/
+html/css/
+html/templates/**/*.html
+html/*.html
+*.log
+node_modules/
+build/
+
